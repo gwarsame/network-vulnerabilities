@@ -1,0 +1,152 @@
+--- Starting Evaluation ---
+
+Title	Ensure /home Located On Separate Partition
+Rule	xccdf_org.ssgproject.content_rule_partition_for_home
+Result	notapplicable
+
+Title	Ensure /tmp Located On Separate Partition
+Rule	xccdf_org.ssgproject.content_rule_partition_for_tmp
+Result	notapplicable
+
+Title	Ensure /var Located On Separate Partition
+Rule	xccdf_org.ssgproject.content_rule_partition_for_var
+Result	notapplicable
+
+Title	Ensure /var/log Located On Separate Partition
+Rule	xccdf_org.ssgproject.content_rule_partition_for_var_log
+Result	notapplicable
+
+Title	Ensure /var/log/audit Located On Separate Partition
+Rule	xccdf_org.ssgproject.content_rule_partition_for_var_log_audit
+Result	notapplicable
+
+Title	Ensure rsyslog is Installed
+Rule	xccdf_org.ssgproject.content_rule_package_rsyslog_installed
+Result	notapplicable
+
+Title	Enable rsyslog Service
+Rule	xccdf_org.ssgproject.content_rule_service_rsyslog_enabled
+Result	notapplicable
+
+Title	Ensure Log Files Are Owned By Appropriate Group
+Rule	xccdf_org.ssgproject.content_rule_rsyslog_files_groupownership
+Result	notapplicable
+
+Title	Ensure Log Files Are Owned By Appropriate User
+Rule	xccdf_org.ssgproject.content_rule_rsyslog_files_ownership
+Result	notapplicable
+
+Title	Ensure System Log Files Have Correct Permissions
+Rule	xccdf_org.ssgproject.content_rule_rsyslog_files_permissions
+Result	notapplicable
+
+Title	Ensure Logrotate Runs Periodically
+Rule	xccdf_org.ssgproject.content_rule_ensure_logrotate_activated
+Result	notapplicable
+
+Title	Verify Permissions on System.map Files
+Rule	xccdf_org.ssgproject.content_rule_file_permissions_systemmap
+Result	notapplicable
+
+Title	Enable Kernel Parameter to Enforce DAC on Hardlinks
+Rule	xccdf_org.ssgproject.content_rule_sysctl_fs_protected_hardlinks
+Result	notapplicable
+
+Title	Enable Kernel Parameter to Enforce DAC on Symlinks
+Rule	xccdf_org.ssgproject.content_rule_sysctl_fs_protected_symlinks
+Result	notapplicable
+
+Title	Verify Group Who Owns group File
+Rule	xccdf_org.ssgproject.content_rule_file_groupowner_etc_group
+Result	notapplicable
+
+Title	Verify Group Who Owns gshadow File
+Rule	xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow
+Result	notapplicable
+
+Title	Verify Group Who Owns passwd File
+Rule	xccdf_org.ssgproject.content_rule_file_groupowner_etc_passwd
+Result	notapplicable
+
+Title	Verify Group Who Owns shadow File
+Rule	xccdf_org.ssgproject.content_rule_file_groupowner_etc_shadow
+Result	notapplicable
+
+Title	Verify User Who Owns group File
+Rule	xccdf_org.ssgproject.content_rule_file_owner_etc_group
+Result	notapplicable
+
+Title	Verify User Who Owns gshadow File
+Rule	xccdf_org.ssgproject.content_rule_file_owner_etc_gshadow
+Result	notapplicable
+
+Title	Verify User Who Owns passwd File
+Rule	xccdf_org.ssgproject.content_rule_file_owner_etc_passwd
+Result	notapplicable
+
+Title	Verify User Who Owns shadow File
+Rule	xccdf_org.ssgproject.content_rule_file_owner_etc_shadow
+Result	notapplicable
+
+Title	Verify Permissions on group File
+Rule	xccdf_org.ssgproject.content_rule_file_permissions_etc_group
+Result	notapplicable
+
+Title	Verify Permissions on gshadow File
+Rule	xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow
+Result	notapplicable
+
+Title	Verify Permissions on passwd File
+Rule	xccdf_org.ssgproject.content_rule_file_permissions_etc_passwd
+Result	notapplicable
+
+Title	Verify Permissions on shadow File
+Rule	xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow
+Result	notapplicable
+
+Title	Disable Core Dumps for SUID programs
+Rule	xccdf_org.ssgproject.content_rule_sysctl_fs_suid_dumpable
+Result	notapplicable
+
+Title	Enable Randomized Layout of Virtual Address Space
+Rule	xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space
+Result	notapplicable
+
+Title	Install the cron service
+Rule	xccdf_org.ssgproject.content_rule_package_cron_installed
+Result	notapplicable
+
+Title	Enable cron Service
+Rule	xccdf_org.ssgproject.content_rule_service_cron_enabled
+Result	notapplicable
+
+Title	Uninstall the inet-based telnet server
+Rule	xccdf_org.ssgproject.content_rule_package_inetutils-telnetd_removed
+Result	notapplicable
+
+Title	Uninstall the nis package
+Rule	xccdf_org.ssgproject.content_rule_package_nis_removed
+Result	notapplicable
+
+Title	Uninstall the ntpdate package
+Rule	xccdf_org.ssgproject.content_rule_package_ntpdate_removed
+Result	notapplicable
+
+Title	Uninstall the ssl compliant telnet server
+Rule	xccdf_org.ssgproject.content_rule_package_telnetd-ssl_removed
+Result	notapplicable
+
+Title	Uninstall the telnet server
+Rule	xccdf_org.ssgproject.content_rule_package_telnetd_removed
+Result	notapplicable
+
+Title	Install the ntp service
+Rule	xccdf_org.ssgproject.content_rule_package_ntp_installed
+Result	notapplicable
+
+Title	Enable the NTP Daemon
+Rule	xccdf_org.ssgproject.content_rule_service_ntp_enabled
+Result	notapplicable
+
+Title	Set SSH Client Alive Count Max to zero
+Rule	xccdf_org.ssgproject.content_rule_sshd_set_keepalive_0
